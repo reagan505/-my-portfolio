@@ -20,18 +20,19 @@ body{
   background-color:grey ;
   padding:60px;
   width: 35%;
+
 }
 .about:hover{
   background-color: rgb(60, 59, 58);
   transition: background 0.3s;
 }
 #about{
-  width:100% ;
-  margin: 50px;
+  width:90% ;
+  margin: 25px;
   color:whitesmoke;
   margin-top: 30px;
   display: flex;
-
+  padding: 15px;
 }
 .project{
   margin: 16px;
@@ -54,14 +55,14 @@ body{
   transition: background 0.3s;
 }
 #interests{
-  width:100% ;
-  margin: 50px;
+  width:90% ;
+  margin: 25px;
   color:whitesmoke;
   margin-top: 10px;
   display: flex;
   /* background-color: black; */
   border-radius: 15px;
-  /* justify-content: space-between; */
+  padding: 15px;
 }
 
 .Skills{
