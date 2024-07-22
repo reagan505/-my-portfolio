@@ -1,5 +1,5 @@
 body{
-  background-image: url(./color.jfif);
+  background-image: url(./blue\ 3.jfif);
   background-repeat:repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -9,6 +9,7 @@ body{
   justify-content: space-between;
   display: flex;
   background-color:grey;
+  border-radius: 15px;
 }
 .code:hover{
   background-color: rgb(60, 59, 58);
@@ -19,7 +20,9 @@ body{
   margin: 16px;
   background-color:grey ;
   padding:60px;
-  width: 35%;
+  width: 50%;
+  border-radius: 80px;
+
 
 }
 .about:hover{
@@ -28,17 +31,21 @@ body{
 }
 #about{
   width:90% ;
-  margin: 25px;
+  margin: 30px;
   color:whitesmoke;
   margin-top: 30px;
   display: flex;
-  padding: 15px;
+  padding: 12px;
+  /* background-color: darkblue; */
+  border-radius: 8px;
+
 }
 .project{
   margin: 16px;
   background-color:grey  ;
   padding:60px;
-  width: 35%;
+  width: 50%;
+  border-radius: 80px;
 }
 .project:hover{
   background-color: rgb(60, 59, 58);
@@ -48,7 +55,8 @@ body{
   margin: 16px;
   background-color:grey ;
   padding:60px;
-  width: 35%;
+  width: 50%;
+  border-radius: 80px;
 }
 .interests:hover{
   background-color: rgb(60, 59, 58);
@@ -56,20 +64,22 @@ body{
 }
 #interests{
   width:90% ;
-  margin: 25px;
+  margin: 12px;
   color:whitesmoke;
   margin-top: 10px;
   display: flex;
   /* background-color: black; */
   border-radius: 15px;
   padding: 15px;
+  rotate: 40px;
 }
 
 .Skills{
   margin: 16px;
   background-color:grey  ;
   padding:60px;
-  width: 35%;
+  width: 50%;
+  border-radius: 80px;
 }
 .Skills:hover{
   background-color: rgb(60, 59, 58);
@@ -83,27 +93,25 @@ body{
   padding:60px;
   width:80% ;
   padding: 0 10px;
+  border-radius: 75px;
+  text-align: center;
 }
 .education:hover{
   background-color: rgb(60, 59, 58);
   transition: background 0.3s;
 }
 #education{
+  width: 90%;
   justify-content: space-around;
-  margin: 10px;
+  margin: 25px;
   color:whitesmoke;
   margin-top: 10px;
   display: flex;
-
-
+  padding: 15px;
 
 }
-.contact{
-  margin: 16px;
-  background-color:grey ;
-  padding:60px;
-  width: 35%;
-}
+
+
 .contact:hover{
   background-color: rgb(60, 59, 58);
   transition: background 0.3s;
@@ -125,6 +133,7 @@ footer .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  border-radius: 10px;
 }
 
 footer p {
